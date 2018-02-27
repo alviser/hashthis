@@ -1,11 +1,13 @@
+#!/usr/bin/env python3
+
 # hashthis.py
 # this script takes a string and hashes it with a bunch of algorithms
 # possibily encoding it with different encodings too
 # with the -c switch it checks if a given hash matches a given string
 
-import hashlib
 import argparse
 import sys
+import hashlib
 import base64
 import urllib.parse
 
